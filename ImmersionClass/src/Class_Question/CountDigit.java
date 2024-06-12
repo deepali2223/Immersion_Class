@@ -1,4 +1,4 @@
-package GFG_Practice_Que;
+package Class_Question;
 
 import java.util.Scanner;
 
