@@ -1,3 +1,5 @@
+package Extra_Question;
+
 import java.util.Scanner;
 
 public class CountNoOfDigit {
