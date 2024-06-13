@@ -9,8 +9,6 @@ public class ReverseInteger {
         System.out.println(reverse(n));
     }
     public static int reverse(int x) {
-        boolean f = false;
-        if(x<0) f = true;
         int n = Math.abs(x);
         int rev = 0;
         while(n>0){
@@ -21,7 +19,7 @@ public class ReverseInteger {
             rev = rev*10 + r;
             n /= 10;
         }
-        if(f){
+        if(x<0){
             rev *= -1;
         }
 
