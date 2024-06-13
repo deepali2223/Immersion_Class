@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class LCM_GCD {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Long A = Long.valueOf(354293);
-        Long B = Long.valueOf(125208);
+        Long A = Long.valueOf(375);
+        Long B = Long.valueOf(10000);
         System.out.println(Arrays.toString(lcmAndGcd(A,B)));
     }
      static Long[] lcmAndGcd(Long A , Long B) {
