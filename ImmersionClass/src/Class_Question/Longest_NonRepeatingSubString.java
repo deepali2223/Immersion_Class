@@ -23,6 +23,7 @@ public class Longest_NonRepeatingSubString {
             }
             int curSize = end - st +1;
             maxSize = Math.max(maxSize,curSize);
+            end++;
         }
         return maxSize;
     }
