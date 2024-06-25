@@ -19,15 +19,11 @@ public class CyclicSort {
     }
 
     private static void cyclicSort(int[] a,int n) {
-        int i =0;
-        while(i<n){
-            if(i == a[i]-1){
-                i++;
-            }
-            else{
-                swap(a,i,a[i]-1);
-            }
-        }
+      for(int i=0;i<n;i++){
+          if(a[i] != i+1){
+              swap(a,a[i]-1,i);
+          }
+      }
     }
 
     public static void swap(int a[],int i,int cIn){
