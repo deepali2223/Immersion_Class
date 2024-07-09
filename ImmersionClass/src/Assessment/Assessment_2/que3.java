@@ -1,4 +1,4 @@
-package Assessment_2;
+package Assessment.Assessment_2;
 
 import java.util.ArrayList;
 import java.util.Arrays;

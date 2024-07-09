@@ -1,4 +1,4 @@
-//package Assessment_1;
+//package Assessment.Assessment_1;
 //
 //import java.util.Scanner;
 //
